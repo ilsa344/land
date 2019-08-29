@@ -1,0 +1,18 @@
+.testimonials {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    .mb-5, .my-5 {
+        margin-bottom: 3rem!important;
+    }
+    .testimonial-item {
+        max-width: 18rem;
+        img {
+            max-width: 12rem;
+            -webkit-box-shadow: 0 5px 5px 0 #adb5bd;
+            box-shadow: 0 5px 5px 0 #adb5bd;
+        }
+        .font-weight-light {
+            font-weight: 300!important;
+        }
+    }
+}

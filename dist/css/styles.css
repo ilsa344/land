@@ -1,0 +1,96 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: 700; }
+
+.navbar-light .navbar-brand {
+  color: rgba(0, 0, 0, 0.9); }
+
+header.masthead {
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+  position: relative;
+  background-color: #343a40;
+  background: url(https://blackrockdigital.github.io/startbootstrap-landing-page/img/bg-masthead.jpg) no-repeat center center;
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 8rem; }
+  header.masthead .overlay {
+    position: absolute;
+    background-color: #212529;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: .3; }
+  header.masthead .container {
+    max-width: 960px; }
+    header.masthead .container .size {
+      font-size: 2.5rem; }
+    header.masthead .container .form-row > .col, header.masthead .container .form-row > [class*=col-] {
+      padding-right: 5px;
+      padding-left: 5px; }
+      header.masthead .container .form-row > .col .form-control-lg, header.masthead .container .form-row > [class*=col-] .form-control-lg {
+        height: calc(1.5em + 1rem + 2px);
+        padding: .5rem 1rem;
+        font-size: 1.25rem;
+        line-height: 1.5;
+        border-radius: .3rem; }
+      header.masthead .container .form-row > .col [type=submit]:not(:disabled), header.masthead .container .form-row > .col button:not(:disabled), header.masthead .container .form-row > [class*=col-] [type=submit]:not(:disabled), header.masthead .container .form-row > [class*=col-] button:not(:disabled) {
+        cursor: pointer; }
+
+.features-icons {
+  padding-top: 7rem;
+  padding-bottom: 7rem; }
+  .features-icons .features-icons-item {
+    max-width: 20rem; }
+    .features-icons .features-icons-item .features-icons-icon {
+      height: 7rem; }
+      .features-icons .features-icons-item .features-icons-icon i {
+        font-size: 4.5rem; }
+    .features-icons .features-icons-item .mb-0, .features-icons .features-icons-item .my-0 {
+      margin-bottom: 0 !important; }
+
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover; }
+
+.showcase .showcase-text {
+  padding: 7rem; }
+
+.testimonials {
+  padding-top: 7rem;
+  padding-bottom: 7rem; }
+  .testimonials .mb-5, .testimonials .my-5 {
+    margin-bottom: 3rem !important; }
+  .testimonials .testimonial-item {
+    max-width: 18rem; }
+    .testimonials .testimonial-item img {
+      max-width: 12rem;
+      -webkit-box-shadow: 0 5px 5px 0 #adb5bd;
+      box-shadow: 0 5px 5px 0 #adb5bd; }
+    .testimonials .testimonial-item .font-weight-light {
+      font-weight: 300 !important; }
+
+.call-to-action {
+  position: relative;
+  background-color: #343a40;
+  background: url(https://blackrockdigital.github.io/startbootstrap-landing-page/img/bg-masthead.jpg) no-repeat center center;
+  background-size: cover;
+  padding-top: 7rem;
+  padding-bottom: 7rem; }
+  .call-to-action .overlay {
+    position: absolute;
+    background-color: #212529;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: .3; }
+  .call-to-action .mb-4, .call-to-action .my-4 {
+    margin-bottom: 1.5rem !important; }
+
+footer.footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem; }
+
+/*# sourceMappingURL=styles.css.map*/
